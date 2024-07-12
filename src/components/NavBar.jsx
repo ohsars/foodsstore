@@ -6,7 +6,7 @@ export const NavBar = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className='justify-center items-center mx-auto'>
+    <div className='justify-center items-center mx-auto select-none'>
 
       <nav className='w-[80vw] mt-5 flex justify-around items-center text-sm'>
 
@@ -20,7 +20,7 @@ export const NavBar = () => {
 
         <div className='flex gap-6'>
           <span>🔍</span>
-          <span onClick={() => setCount((count) => count + 1)} className='relative cursor-pointer'>🛒 <span className='bg-red-700 text-white rounded-full px-2 align-text-top bottom-3 left-4 text-[8px] absolute'>{count}</span></span>
+          <span onClick={() => setCount((count) => count + 1)} className='relative cursor-pointer'>🛒 <span className='bg-red-700 text-white rounded-full px-2 align-text-center bottom-3 left-4 text-[8px] absolute'>{count}</span></span>
         </div>
 
         <section className='flex gap-4 text-[12px]'>
