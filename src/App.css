@@ -1,0 +1,9 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(./font/ABEAKRG.TTF);
+}
+
+* {
+  font-family: myFirstFont;
+  background: #0f0f0f;
+}
