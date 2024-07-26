@@ -1,11 +1,12 @@
 // import { ButtonStuffs } from './ButtonStuffs';
+import { Footer } from './components/Footer';
 import { Main } from './components/Main';
 
 function App() {
   return (
     <>
-    {/* <ButtonStuffs /> */}
       <Main />
+      <Footer />
     </>
   )
 }
