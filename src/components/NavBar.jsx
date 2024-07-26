@@ -11,7 +11,7 @@ export const NavBar = () => {
   return (
     <div className='items-center m-0 select-none sticky top-0 z-50'>
 
-      <nav className='flex mt-3 mx-auto text-sm fixed transition-transform transform-gpu duration-300 border-gray-100 border-b-2 rounded-md p-2 gap-2 items-center justify-between w-[80vw]'>
+      <nav className='flex mt-3 mx-auto text-sm fixed transition-transform transform-gpu duration-300 rounded-md p-2 gap-2 items-center justify-between w-[80vw]'>
 
         <div className='text-[15px] dark:text-gray-200 font-bold p-2 rounded-lg   cursor-none select-none hover:bg-white dark:hover:text-gray-600 '>meeChoww
         🍍🍅</div>
